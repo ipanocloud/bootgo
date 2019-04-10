@@ -1,5 +1,7 @@
 # bootgo
 
+<img src="https://i.loli.net/2019/04/10/5cae0932f1c26.png" alt="bootGo" align=center>
+
 #### 介绍
 基于beego框架生成的restapi项目脚手架
 
