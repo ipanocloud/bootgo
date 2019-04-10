@@ -13,7 +13,6 @@ func init() {
             Router: `/`,
             AllowHTTPMethods: []string{"post"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"],
@@ -22,7 +21,6 @@ func init() {
             Router: `/`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"],
@@ -31,7 +29,6 @@ func init() {
             Router: `/:objectId`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"],
@@ -40,7 +37,6 @@ func init() {
             Router: `/:objectId`,
             AllowHTTPMethods: []string{"put"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:ObjectController"],
@@ -49,7 +45,6 @@ func init() {
             Router: `/:objectId`,
             AllowHTTPMethods: []string{"delete"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -58,7 +53,6 @@ func init() {
             Router: `/`,
             AllowHTTPMethods: []string{"post"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -67,7 +61,6 @@ func init() {
             Router: `/`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -76,7 +69,6 @@ func init() {
             Router: `/:uid`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -85,7 +77,6 @@ func init() {
             Router: `/:uid`,
             AllowHTTPMethods: []string{"put"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -94,7 +85,6 @@ func init() {
             Router: `/:uid`,
             AllowHTTPMethods: []string{"delete"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -103,7 +93,6 @@ func init() {
             Router: `/login`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"] = append(beego.GlobalControllerRouter["gitee.com/ipanocloud/bootgo/controllers:UserController"],
@@ -112,7 +101,6 @@ func init() {
             Router: `/logout`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
-            Filters: nil,
             Params: nil})
 
 }

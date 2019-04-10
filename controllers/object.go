@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"gitee.com/ipanocloud/bootgo/models"
 	"encoding/json"
+	"gitee.com/ipanocloud/bootgo/models"
 
 	"github.com/astaxie/beego"
 )
