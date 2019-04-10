@@ -1,7 +1,7 @@
 # bootgo
 
 #### 介绍
-使用beego框架生成的restapi项目
+基于beego框架生成的restapi项目脚手架
 
 #### 软件架构
 软件架构说明
