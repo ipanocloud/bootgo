@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+
 	bootconfig.InitEnv()
 	beego.Run()
 }

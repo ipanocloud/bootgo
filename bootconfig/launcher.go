@@ -6,9 +6,9 @@ func InitEnv() {
 	//env init
 	EnvInit()
 
-	//db init
-	DbInit()
-
 	//log init
 	LogInit()
+
+	//db init
+	DbInit()
 }

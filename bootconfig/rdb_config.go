@@ -26,12 +26,12 @@ func DbInit() {
 
 	err := orm.RegisterDriver(dbDriver, orm.DRMySQL)
 	if err != nil {
-		fmt.Println("register driver failed", dbDriver, err)
+		Log.Error("register driver failed", dbDriver, err)
 		os.Exit(1)
 	}
 	err = orm.RegisterDataBase("default", dbDriver, dbLink, maxIdleConn, maxOpenConn)
 	if err != nil {
-		fmt.Println("register database failed", dbName, err)
+		Log.Error("register database failed", dbName, err)
 		os.Exit(1)
 	}
 	if HasTest == true {
