@@ -10,3 +10,7 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+vendor
+commentsRouter___________________Users_zhoubin_gorepo_src_gitee_com_ipanocloud_bootgo_controllers.go
+Gopkg.lock
+Gopkg.toml
