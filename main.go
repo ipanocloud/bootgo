@@ -1,12 +1,12 @@
 package main
 
 import (
-	"gitee.com/ipanocloud/bootgo/boot"
+	"gitee.com/ipanocloud/bootgo/bootconfig"
 	_ "gitee.com/ipanocloud/bootgo/routers"
 	"github.com/astaxie/beego"
 )
 
 func main() {
-	boot.InitEnv()
+	bootconfig.InitEnv()
 	beego.Run()
 }

@@ -1,4 +1,4 @@
-package boot
+package bootconfig
 
 //init bootgo env
 func InitEnv() {
@@ -9,4 +9,6 @@ func InitEnv() {
 	//db init
 	DbInit()
 
+	//log init
+	LogInit()
 }

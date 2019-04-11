@@ -1,4 +1,4 @@
-package boot
+package bootconfig
 
 import (
 	"fmt"
@@ -8,8 +8,9 @@ import (
 
 var HasTest bool
 
-//env init
+//初始化启动环境
 func EnvInit()  {
+
 	var appConfig string
 	env := os.Getenv("ENV_CLUSTER")
 	if env == "prod" {
@@ -24,6 +25,7 @@ func EnvInit()  {
 	err := beego.LoadAppConfig("ini", appConfig)
 	if err != nil {
 		fmt.Println("load conf failed,", err)
+		os.Exit(1)
 	}
 
 	if env == "dev" || env == "qa" {
